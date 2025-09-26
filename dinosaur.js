@@ -207,11 +207,11 @@ function toggleDayNightCycle() {
 }
 
 function checkDayNightCycle() {
-  let tscore=score;
+  
   if(score %300 == 0)
   {
     toggleDayNightCycle();
-    tscore=0
+    
 
   }
   // To solve problem-1: Check if we've reached a new 300-point milestone
